@@ -17,11 +17,11 @@ RUNNING THE PROJECT
 * yarn android => to run the project on the android emulator
 ** (OPEN EMULATOR REQUIRED) **
 * yarn ios => To run on the iOS emulator
-** (NO OPEN EMULATOR REQUIRED) **
+** (NO OPEN EMULATOR REQUIRED) 
 
 ****
 
-## Feito por
+## Made by
 
 Carlos Ferreira
 * [github](https://www.github.com/CarlosSTS)
