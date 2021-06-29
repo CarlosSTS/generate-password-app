@@ -1,25 +1,22 @@
 # generatePassword
-a small application created with expo to generate passwords at random
+A small application created with expo to generate passwords at random
 
 ## módules
 
-
-* a screen that generates passwords randomly depending on the number of characters defined by the user
+* A screen that generates passwords randomly depending on the number of characters defined by the user
 
 ## screens
-![Foto do App](https://github.com/CarlosSTS/generatePassword/blob/master/src/assets/gifProject.gif)
-![Foto do App](https://github.com/CarlosSTS/generatePassword/blob/master/src/assets/imageProject.jpg)
+![Foto do App inicio](https://github.com/CarlosSTS/generatePassword/blob/master/src/assets/initial.png)
+![Foto do App](https://github.com/CarlosSTS/generatePassword/blob/master/src/assets/selectPicker.png)
+![Foto do App geradoSenha](https://github.com/CarlosSTS/generatePassword/blob/master/src/assets/generatePass.png)
+![Foto do App copiado](https://github.com/CarlosSTS/generatePassword/blob/master/src/assets/copied.png)
 
 ## Testing
 RUNNING THE PROJECT
 * yarn install => to install the Project Dependencies
 * yarn start => to start the project
 * yarn android => to run the project on the android emulator
-** (OPEN EMULATOR REQUIRED) **
 * yarn ios => To run on the iOS emulator
-** (NO OPEN EMULATOR REQUIRED) 
-
-****
 
 ## Made by
 
