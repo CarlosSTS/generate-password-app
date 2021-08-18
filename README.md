@@ -21,6 +21,6 @@ RUNNING THE PROJECT
 ## Made by
 
 Carlos Ferreira
-* [github](https://www.github.com/CarlosSTS)
-* [email](mailto://carlossts826@gmail.com)
+* [Github](https://www.github.com/CarlosSTS)
+* [Email](mailto://carlossts826@gmail.com)
 * [LinkedIn](https://www.linkedin.com/in/carlos-ferreira-4b2ba219a/)
