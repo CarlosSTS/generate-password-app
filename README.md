@@ -11,12 +11,12 @@ A small application created with expo to generate passwords at random
 ![Foto do App geradoSenha](https://github.com/CarlosSTS/generatePassword/blob/master/src/assets/generatePass.png)
 ![Foto do App copiado](https://github.com/CarlosSTS/generatePassword/blob/master/src/assets/copied.png)
 
-## Testing
-RUNNING THE PROJECT
+## MOBILE
+RUNNING THE PROJECT MOBILE
 * yarn install => to install the Project Dependencies
 * yarn start => to start the project
 * yarn android => to run the project on the android emulator
-* yarn ios => To run on the iOS emulator
+* yarn ios => to run on the iOS emulator
 
 ## Made by
 
