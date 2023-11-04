@@ -1,4 +1,4 @@
-# generatePassword
+# Generate-password-app
 A small application created with expo to generate passwords at random
 
 ## módules
