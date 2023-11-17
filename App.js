@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { View, StyleSheet, Image, Text, TouchableOpacity, Alert } from 'react-native';
 import Slider from '@react-native-community/slider'
 import Logo from './src/assets/logo.png'
-import Clipboard from "expo-clipboard";
+import * as Clipboard from 'expo-clipboard';
 let charset = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789'
 
 const App = () => {
@@ -16,9 +16,11 @@ const App = () => {
     }
     setPassword(pass)
   }
-  function copyPass() {
-    Clipboard.setString(password)
-    Alert.alert('Sucesso', 'Senha copiada!!!')
+  async function copyPass() {
+    await Clipboard.setStringAsync(password, {
+      inputFormat: Clipboard.StringFormat.PLAIN_TEXT
+    })
+    Alert.alert('Sucesso', 'Senha copiada')
   }
   return (
     <View style={styles.container}>
@@ -40,10 +42,10 @@ const App = () => {
         />
       </View>
 
-      <TouchableOpacity style={styles.button} onPress={generatePass}>
+      <TouchableOpacity activeOpacity={0.7} style={styles.button} onPress={generatePass}>
         <Text style={styles.buttonText}>Gerar senha</Text>
       </TouchableOpacity>
-      { password !== '' && (
+      {password && (
         <View style={styles.area}>
           <Text style={styles.password} onLongPress={copyPass}> {password}</Text>
         </View>
